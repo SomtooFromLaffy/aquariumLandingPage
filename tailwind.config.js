@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'logo':['Sacramento'],
+        'body':['Nunito'],
+        'test':['Monomaniac']
+      }
+      
+    },
   },
   plugins: [],
 }
