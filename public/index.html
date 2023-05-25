@@ -5,41 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href=" output.css" rel="stylesheet">
 </head>
-<body>
+<body class="font-mono text-white h-screen bg-[url('img/5.jpg')] bg-cover">
     <!-- background -->
-    <div>
+    <div class = " mx-9 mt-4 ">
         <!-- top nav -->
-        <div>
+        <div class="flex justify-between">
             <!-- logo -->
             <div>
-                <h2 class="font-logo">Quahog Aquarium</h2>
+                <h2 class="text-6xl font-logo">Quahog Aquarium</h2>
             </div>
             <!-- nav options -->
-            <nav>
-                <ul>
-                    <li>Tickets</li>
-                    <li>Gallery</li>
-                    <li>Virtual Visit</li>
-                    <li>Contact Us</li>
+            <nav class="flex items-center">
+                <ul class="grid grid-cols-4 gap-5">
+                    <li class="w-35 h-10 flex items-center">Tickets</li>
+                    <li class="w-35 h-10 flex items-center">Gallery</li>
+                    <li class="w-35 h-10 flex items-center">Virtual Visit</li>
+                    <li class="w-35 h-10 flex items-center">Contact Us</li>
                 </ul>
             </nav>
         </div>
         <!-- main options -->
-        <main>
+        <main >
             <!-- Specials -->
+            <!-- class="border-2 border-green-400 my-20" -->
             <div>
                 <!-- header -->
-                <h4>
+                <h4 class="text-4xl font-bold mt-20">
                     Summer Special
                 </h4>
                 <!-- details -->
-                <p>
+                <p class="text-xl mt-3">
                     Get 50% off ticket sales for kids all summer long !!
                 </p>
                 <!-- link to special -->
-                <a>
+                <button class = "p-1.5 mt-5 mb-20">
                     Book Now !
-                </a>
+                </button>
             </div>
 
         </main>
