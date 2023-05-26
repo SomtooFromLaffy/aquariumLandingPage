@@ -528,6 +528,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto{
+  margin: auto;
+}
+
+.m-5{
+  margin: 1.25rem;
+}
+
 .mx-9{
   margin-left: 2.25rem;
   margin-right: 2.25rem;
@@ -536,6 +544,26 @@ video {
 .my-20{
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .mb-20{
@@ -558,6 +586,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-auto{
+  margin-top: auto;
+}
+
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
 }
@@ -574,8 +610,88 @@ video {
   height: 100vh;
 }
 
+.h-5\/6{
+  height: 83.333333%;
+}
+
+.h-6{
+  height: 1.5rem;
+}
+
+.h-56{
+  height: 14rem;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-1\/6{
+  height: 16.666667%;
+}
+
+.h-4\/6{
+  height: 66.666667%;
+}
+
+.h-1\/5{
+  height: 20%;
+}
+
+.h-4\/5{
+  height: 80%;
+}
+
+.h-3\/5{
+  height: 60%;
+}
+
+.h-8{
+  height: 2rem;
+}
+
+.h-\[40\%\]{
+  height: 40%;
+}
+
+.h-\[0\%\]{
+  height: 0%;
+}
+
+.h-\[70\%\]{
+  height: 70%;
+}
+
+.h-\[10\%\]{
+  height: 10%;
+}
+
+.h-\[20\%\]{
+  height: 20%;
+}
+
+.h-\[50\%\]{
+  height: 50%;
+}
+
+.h-\[30\%\]{
+  height: 30%;
+}
+
+.h-\[75\%\]{
+  height: 75%;
+}
+
+.h-\[15\%\]{
+  height: 15%;
+}
+
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-5{
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .place-items-center{
@@ -586,12 +702,32 @@ video {
   align-items: center;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
 
+.justify-around{
+  justify-content: space-around;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
+.justify-items-center{
+  justify-items: center;
+}
+
 .gap-5{
   gap: 1.25rem;
+}
+
+.rounded-sm{
+  border-radius: 0.125rem;
 }
 
 .border-2{
@@ -623,6 +759,20 @@ video {
   border-color: rgb(250 204 21 / var(--tw-border-opacity));
 }
 
+.border-pink-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(244 114 182 / var(--tw-border-opacity));
+}
+
+.bg-\[\]{
+  background-color: ;
+}
+
+.bg-\[\#E36397\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 99 151 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\]{
   background-image: url('/img/hero-pattern.svg');
 }
@@ -651,6 +801,14 @@ video {
   background-image: url('img/5.jpg');
 }
 
+.bg-\[url\(\'img\/6\.jpg\'\)\]{
+  background-image: url('img/6.jpg');
+}
+
+.bg-\[url\(\'img\/7\.jpg\'\)\]{
+  background-image: url('img/7.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -661,6 +819,20 @@ video {
 
 .p-1\.5{
   padding: 0.375rem;
+}
+
+.p-2{
+  padding: 0.5rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .text-center{
@@ -725,4 +897,58 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-slate-50{
+  --tw-text-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+
+.text-slate-400{
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#00bcd8\]{
+  --tw-text-opacity: 1;
+  color: rgb(0 188 216 / var(--tw-text-opacity));
+}
+
+.text-\[\]{
+  color: ;
+}
+
+.text-\[\#AA4465\]{
+  --tw-text-opacity: 1;
+  color: rgb(170 68 101 / var(--tw-text-opacity));
+}
+
+.text-\[\#462255\]{
+  --tw-text-opacity: 1;
+  color: rgb(70 34 85 / var(--tw-text-opacity));
+}
+
+.text-\[\#DDFFF7\]{
+  --tw-text-opacity: 1;
+  color: rgb(221 255 247 / var(--tw-text-opacity));
+}
+
+.text-\[\#F24C00\]{
+  --tw-text-opacity: 1;
+  color: rgb(242 76 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#E2D4B7\]{
+  --tw-text-opacity: 1;
+  color: rgb(226 212 183 / var(--tw-text-opacity));
+}
+
+.text-\[\#E36397\]{
+  --tw-text-opacity: 1;
+  color: rgb(227 99 151 / var(--tw-text-opacity));
 }

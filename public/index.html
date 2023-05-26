@@ -4,46 +4,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href=" output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="font-mono text-white h-screen bg-[url('img/5.jpg')] bg-cover">
-    <!-- background -->
-    <div class = " mx-9 mt-4 ">
-        <!-- top nav -->
-        <div class="flex justify-between">
-            <!-- logo -->
-            <div>
-                <h2 class="text-6xl font-logo">Quahog Aquarium</h2>
+<body>
+    <div class="font-mono h-screen  text-white bg-[url('img/6.jpg')] bg-cover">
+        <!-- background -->
+        <div class = "h-full mx-9">
+            <!-- top nav -->
+            <div class="h-[10%] flex justify-between">
+                <!-- logo -->
+                <div class="flex items-center">
+                    <h2 class="text-6xl font-logo">Quahog Aquarium</h2>
+                </div>
+                <!-- nav options -->
+                <nav class="flex items-center">
+                    <ul class="grid grid-cols-5 gap-5">
+                        <li class="w-35 h-10 flex justify-center items-center">Tickets</li>
+                        <li class="w-35 h-10 flex justify-center items-center">Attractions</li>
+                        <li class="w-35 h-10 flex justify-center items-center">Gallery</li>
+                        <li class="w-35 h-10 flex justify-center items-center">Virtual Visit</li>
+                        <li class="w-35 h-10 flex justify-center items-center">Contact Us</li>
+                    </ul>
+                </nav>
             </div>
-            <!-- nav options -->
-            <nav class="flex items-center">
-                <ul class="grid grid-cols-4 gap-5">
-                    <li class="w-35 h-10 flex items-center">Tickets</li>
-                    <li class="w-35 h-10 flex items-center">Gallery</li>
-                    <li class="w-35 h-10 flex items-center">Virtual Visit</li>
-                    <li class="w-35 h-10 flex items-center">Contact Us</li>
-                </ul>
-            </nav>
-        </div>
-        <!-- main options -->
-        <main >
-            <!-- Specials -->
-            <!-- class="border-2 border-green-400 my-20" -->
-            <div>
-                <!-- header -->
-                <h4 class="text-4xl font-bold mt-20">
-                    Summer Special
-                </h4>
-                <!-- details -->
-                <p class="text-xl mt-3">
-                    Get 50% off ticket sales for kids all summer long !!
-                </p>
-                <!-- link to special -->
-                <button class = "p-1.5 mt-5 mb-20">
-                    Book Now !
-                </button>
-            </div>
+            <!-- main options -->
+            <main class="h-[75%] flex items-center">
+                <!-- Specials -->
+                <!-- class="border-2 border-green-400 my-20" -->
+                <div>
+                    <!-- header -->
+                    <!-- <h4 class="text-4xl font-bold mt-20"> -->
+                    <h4 class="py-2 text-4xl font-bold">
+                        Summer Special
+                    </h4>
+                    <!-- details -->
+                    <p class="py-2 text-xl ">
+                        Get 50% off ticket sales for kids all summer long !!
+                    </p>
+                    <!-- link to special -->
+                    <button class = "my-2 p-1.5 bg-[#E36397] text-white rounded-sm">
+                        Book Now !
+                    </button>
+                </div>
 
-        </main>
+            </main>
+
+        </div>
     </div>
 </body>
 </html>
+
+<!-- <div class="h-[15%] border-2 border-green-400">
+    <div class="border-2 border-green-400"><i class="fa fa-instagram border-2 border-green-400" style="font-size:24px"></i></div>
+    <div><i class="fa fa-facebook border-2 border-green-400" style="font-size:24px"></i></div>
+    <div><i class="fa fa-twitter border-2 border-green-400" style="font-size:24px"></i></div>
+</div> -->
+
+
+<!-- <div class="h-[15%]"> flex justify- items-center
+    <div class='foot'>
+        <div className='introduction'>
+            <h4>Developer</h4>
+            <p>Somtoo Chukwu </p>
+            <i>Aspiring Frontend Developer</i>
+            <div className='connect'>
+                <a href="https://www.linkedin.com/in/somtoo-chukwu-b5189b159/" target="_blank" rel="noreferrer"><FaLinkedin size={20} style={{color:'#000', marginRight: '2rem'}} /></a>
+                <a href="https://github.com/SomtooFromLaffy" target="_blank" rel="noreferrer"><FaGithub size={20} style={{color:'#000', marginRight: '2rem'}} /></a>
+
+            </div>
+        </div>
+
+        <div className='description'>
+            <h4>Project Aim</h4>
+            <p> 
+                This is a learning project to showcase to hiring managers.
+                It makes use of React, HTML and CSS.
+                It also incorporates using Git and Github tools via VS Code. It is
+                mobile friendly.
+            </p>
+
+        </div>
+  
+    </div>
+</div> -->
