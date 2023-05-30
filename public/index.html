@@ -58,8 +58,9 @@
 
         </div>
     </section>
-    <section class="font-mono h-screen  text-white pt-5 bg-gray-100">
-        <div class = "h-[100%] mx-9">
+    <section class="font-mono h-screen  text-white pt-5 bg-gray-100 border-2 border-green-400">
+        <!-- grid -->
+        <div class = "h-[100%] mx-9  border-2 border-red-500 lg:grid lg:grid-cols-2">
             <!-- ticket info -->
             <div class="h-[100%] flex items-center justify-center">
                 <div class="w-[95%] h-[90%] rounded-md p-2 bg-white shadow-2xl">
@@ -111,7 +112,7 @@
                             <input type="checkbox" id="scales" name="scales" checked>
                         </div>
 
-                        <div class="mt-5 flex flex-col justify-center">
+                        <div class="mt-10 flex flex-col justify-center">
                             <button class="rounded-3xl my-2 p-1.5 text-sm bg-[#E36397] hover:-translate-y-1 hover:scale-100 hover:bg-[#df4d89] duration-300 ">
                                 Checkout with Card
                             </button>
@@ -125,12 +126,64 @@
                 </div>
             </div>
             <!-- payment -->
-            <div class="w-3/6 h-[100%] flex items-center justify-center border-yellow-600 border-2">
-                <div class="w-[70%] h-[90%] flex  border-pink-600 border-2">
-                    hbk
+            <div class="h-[100%] flex items-center justify-center border-2 border-blue-500">
+                <div class="w-[95%] h-[90%] rounded-md p-2 bg-white shadow-2xl">
+                    <div class="w-[100%] h-[5%] flex items-center hover: cursor-pointer">
+                        <h2 class ="text-xl text-mono text-[#E36397] pl-5 pt-5"><i class="fa fa-arrow-left" aria-hidden="true"></i>  Back to tickets</h2>
+                        
+                    </div>
+                    <div class ="block text-xl text-mono text-black pl-5 pt-5">
+                        <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                        <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                        <i class="fa fa-cc-discover" aria-hidden="true"></i>
+                    </div>
                     <form >
+                        <div class="relative pt-5">
+                            <p class="bg-white pt-1 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 text-sm text-gray-600
+                                absolute">Cardholder Name</p>
+                            <input placeholder="John Bingo" type="text" class="border placeholder-gray-400 focus:outline-none
+                                focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-sm block bg-white
+                                border-gray-300 rounded-md"/>
+                        </div>
 
+                        <div class="relative pt-5">
+                            <p class="bg-white pt-1 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 text-sm text-gray-600
+                                absolute">Card Number</p>
+                            <input placeholder="1234-5678-9876-5432" type="number" class="border placeholder-gray-400 focus:outline-none
+                                focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-sm block bg-white
+                                border-gray-300 rounded-md"/>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2">
+                            <div class="relative pt-5">
+                                <p class="bg-white pt-1 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 text-sm text-gray-600
+                                    absolute">CVV</p>
+                                <input placeholder="xxx" type="number" class="border placeholder-gray-400 focus:outline-none
+                                    focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-sm block bg-white
+                                    border-gray-300 rounded-md"/>
+                            </div>
+
+                            <div class="relative pt-5">
+                                <p class="bg-white pt-1 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 text-sm text-gray-600
+                                    absolute">Exp Date</p>
+                                <input placeholder="mm/dd" type="text" class="border placeholder-gray-400 focus:outline-none
+                                    focus:border-black w-full pt-3 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-sm block bg-white
+                                    border-gray-300 rounded-md"/>
+                            </div>
+                        </div>
+
+                        <button class="w-full rounded-3xl my-7 p-1.5 text-sm bg-[#E36397] hover:-translate-y-1 hover:scale-100 hover:bg-[#df4d89] duration-300 ">
+                            Take my money !
+                        </button>
                     </form>
+                </div>
+            </div>
+            <!-- ticket design -->
+            <div class="h-[100%] flex items-center justify-center border-2 border-blue-500">
+                <div class="w-[95%] h-[90%] rounded-md p-2 bg-white shadow-2xl">
+                    <div class="w-[100%] h-[5%] flex items-center hover: cursor-pointer">
+                    </div>
                 </div>
             </div>
         </div>
