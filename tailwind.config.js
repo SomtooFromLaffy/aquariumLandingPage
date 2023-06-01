@@ -7,9 +7,13 @@ module.exports = {
         'logo':['Sacramento'],
         'body':['Nunito'],
         'test':['Monomaniac']
+      },
+      screens: {
+        'fold': '285px'
+        // => @media (min-height: 800px) { ... }
       }
       
-    },
+    }
   },
   plugins: [],
 }
