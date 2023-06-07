@@ -12,6 +12,7 @@ module.exports = {
         'fold': '285px'
         // => @media (min-height: 800px) { ... }
       }
+
       
     }
   },
